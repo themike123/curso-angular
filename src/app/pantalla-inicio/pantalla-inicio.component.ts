@@ -12,8 +12,17 @@ export class PantallaInicioComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  //Store user in API
   traerInformacion(nombre, apPaterno, apMaterno){
+    
+    let url = "https://reqres.in/api/users";
+
     alert(nombre + ' ' + apPaterno + ' ' + apMaterno)
+  } 
+
+  //Function get alll users
+  getUsers(){
+
   }
 
 }

@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-  _tituloNavBar: string = 'Mi primer Navbar';
+  _tituloNavBar: string = 'LOGO';
   _menuCierraSesionBoolean: boolean = false;
 
   constructor( protected router: Router ) { }
