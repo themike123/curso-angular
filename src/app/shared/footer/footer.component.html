@@ -1,0 +1,14 @@
+<footer>
+    <div class="container">
+        <div class="row justify-content-center">
+            <ng-container *ngFor="let contenidoMenu of this._contenidoPiePagina">
+                <ul class="col-auto mb-3 text-center">
+                    <li class="font-weight-bold">{{contenidoMenu.titulo}}</li>
+                    <ng-container *ngFor="let contenidoSubMenu of contenidoMenu.contenido">
+                        <li class="subContenido">{{contenidoSubMenu.subtitulo}}</li>
+                    </ng-container>
+                </ul>
+            </ng-container>
+        </div>
+    </div>
+</footer>
